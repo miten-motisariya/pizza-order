@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pizza-order/static/css/main.83a19282.css",
+    "main.js": "/pizza-order/static/js/main.5620f7dd.js",
+    "static/js/787.56b53214.chunk.js": "/pizza-order/static/js/787.56b53214.chunk.js",
+    "index.html": "/pizza-order/index.html",
+    "main.83a19282.css.map": "/pizza-order/static/css/main.83a19282.css.map",
+    "main.5620f7dd.js.map": "/pizza-order/static/js/main.5620f7dd.js.map",
+    "787.56b53214.chunk.js.map": "/pizza-order/static/js/787.56b53214.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83a19282.css",
+    "static/js/main.5620f7dd.js"
+  ]
+}
