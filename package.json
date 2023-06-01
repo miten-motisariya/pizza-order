@@ -1,6 +1,6 @@
 {
-  "homepage": "https://miten-motisariya.github.io/pizzachatbot",
-  "name": "my-app",
+  "homepage": "https://miten-motisariya.github.io/pizza-order",
+  "name": "pizza-order",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

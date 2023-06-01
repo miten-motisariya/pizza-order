@@ -7,7 +7,7 @@ const AWS = require("aws-sdk");
 
 const LexChatbot = () => {
   const [messages, setMessages] = useState([]);
-  const [text, setText] = useState("");
+  const [text, setText] = useState("I want to order pizza");
   const [imageResponseCard, setImageResponseCard] = useState([]);
   const [sessionId, setSessionId] = useState(`${Date.now()}`);
   
@@ -95,19 +95,19 @@ const LexChatbot = () => {
             <>
               <div
                 className={`chatbot-message ${
-                  message.isSend ? "user-message" : ""
+                  message.isSend ? "user-message" : "chatbot"
                 }`}
               >
                 <p className={`chatbot-text`} senttime={currentTime}>{message?.content}</p>
               </div>
               <div
                 className={`chatbot-message ${
-                  message.isSend ? "user-message" : ""
+                  message.isSend ? "user-message" : "chatbot"
                 }`}
               >
               </div>
               {message.isImageResponseCard ? (
-                  <div className="chatbot-message-card">
+                  <div className="chatbot-message-card chatbot">
                     <div className="card">
                     {imageResponseCard.imageUrl ? (<img className="imgRes" src={imageResponseCard.imageUrl} alt="imagesResponses" />):(<></>)}
                       <div className="card__details">

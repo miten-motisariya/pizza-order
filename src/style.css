@@ -151,7 +151,7 @@ body {
     color: gray;
   }
 
-  .chatbot-message p[senttime]:hover::after {  
+  .chatbot p[senttime]:hover::after {  
     left: 15px;
   }
 
